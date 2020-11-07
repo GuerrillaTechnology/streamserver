@@ -1,7 +1,9 @@
 FROM debian:buster-slim
-LABEL maintainer="tobias@bartel.ws"
+LABEL maintainer="Guerrilla Technology"
 LABEL build_date="${TODAY}"
-LABEL name=hlsvideo
+LABEL name=Streamserver
+LABEL version=1
+LABEL url="https://github.com/GuerrillaTechnology/streamserver"
 
 #
 # Install dependencies
